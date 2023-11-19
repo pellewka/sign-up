@@ -1,0 +1,135 @@
+*{
+   padding: 0;
+   border: none;
+   margin: 0;
+}
+
+.container {
+   display: flex;
+   justify-content: space-between;
+}
+.parent-link {
+   font-size: 1rem;
+}
+.parent-link , .icon {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.logo{
+   height: 42px;
+}
+.logo:hover{
+   opacity: 0,7;
+}
+.social{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.parent-link {
+}
+.social-links, .msg {
+   text-decoration: none;
+}
+.social-links{
+   padding: 0 2.5rem;
+   margin: 0;
+   color: white;
+   font-weight: 500;
+}
+.social-links:hover{
+   opacity: 0.8;
+}
+.sm-icon {
+   padding: 0 1rem;
+   margin: 0;
+   color: aliceblue;
+}
+.sm-icon:hover{
+   opacity: 0.8;
+}
+nav{
+   font-size: 20px;
+   font-weight: 700;
+   display: flex;
+   justify-content: space-between;
+   padding-top: 32px;
+}
+body{
+   font-family: 'Courier New', Courier, monospace;
+   background-image: linear-gradient(45deg, rgb(198, 64, 198), rgb(45, 136, 150));
+   height: 100vh;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+.form {
+   display: flex;
+   justify-content: center;
+   padding-top: 3rem;
+}
+.sub-form {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 30vw;
+   height: 70vh;
+   border-radius: 12px;
+   box-shadow: rgb(0, 60, 255) 0px 13px 27px -5px, rgb(131, 131, 181) 0px 8px 16px -8px;
+   background-color: rgb(39, 162, 206);
+}
+h2{
+   margin: 1.5rem 0 2rem 0;
+   text-align: center;
+}
+label{
+   padding-left: 16px;
+   opacity: 0.75;
+}
+input{
+   display: flex;
+   border-radius: 50px;
+   border-style: none;
+   outline: none;
+   margin-top: 8px;
+   padding: 12px 24px;
+   width: 100%;
+   background-color: rgb(22, 178, 234);
+}
+input:focus{
+   opacity: 0.7;
+}
+.upper-form {
+}
+button {
+   padding: 12px 48px;
+   border-radius: 50px;
+   color: wheat;
+   margin-top: 1rem;
+   cursor: pointer;
+   outline: none;
+   border-width: 0;
+   background-color: rgb(9, 10, 10);
+   font-weight: 600;
+   width: 100%;
+}
+button:hover{
+   opacity: 0.8;
+}
+.bottom-form {
+   display: flex;
+   justify-content: center;
+   margin-top: 3rem;
+}
+.no-account {
+}
+.signup {
+   padding-left: 5px;
+   text-decoration: none;
+   cursor: pointer;
+   color: rgb(134, 39, 121);
+}
+.signuo:hover{
+   opacity: 0.8;
+}
